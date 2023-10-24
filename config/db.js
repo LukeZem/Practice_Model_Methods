@@ -2,7 +2,7 @@
 
 const mongoose = require('mongoose');
 
-let connectionString = `mongodb+srv://userOne:${process.env.MONGO_PASS}@cluster0.loes5ey.mongodb.net/Company?retryWrites=true&w=majority`
+let connectionString = `mongodb+srv://lucaszemlin:${process.env.MONGO_PASS}@cluster0.eglicmo.mongodb.net/?retryWrites=true&w=majority`
 
 mongoose.connect(connectionString, {
     useNewUrlParser: true,
